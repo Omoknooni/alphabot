@@ -1,0 +1,7 @@
+asyncio
+discord
+youtube_dl
+bs4
+fake_useragent
+urllib
+pandas
