@@ -49,7 +49,7 @@ async def help(ctx):
 @bot.event
 async def on_member_join(member):
     embed = discord.Embed(title = "서버에 오신 것을 환영합니다", description = "개발용", color = 0xf3bb76)
-    embed.add_field(name="<1>", value="불안정한 명령어가 있습니다", inline=True)
+    embed.add_field(name="<1>", value="아직 불안정한 명령어가 있습니다", inline=True)
     embed.add_field(name="<2>", value="과도한 명령어 입력은 자제해주세요", inline=True)
     await member.send(embed)
 
